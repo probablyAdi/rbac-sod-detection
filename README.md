@@ -13,6 +13,7 @@ This project is designed to **automate the detection of Segregation of Duties (S
 ## How It Works
 1. **Input Files:**
    - `roles.csv` (To be provided by the user) - Contains user-role mappings.
+       - ⚠ Ensure the roles.csv file is added before execution, as it is NOT included in the repository.
    - `privileges.csv` - Defines which privileges are assigned to each role.
    - `role_hierarchy.csv` - Specifies role inheritance relationships.
    - `sod_rules.csv` - Lists toxic combinations of privileges that violate SoD policies.
