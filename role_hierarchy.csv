@@ -1,0 +1,11 @@
+ParentRole,ChildRole
+Admin,UserManager
+UserManager,User
+Finance,Auditor
+SecurityAnalyst,Auditor
+PolicyEditor,PermissionChanger
+RoleManager,PolicyEditor
+Approver,Requester
+IT_Admin,SecurityAnalyst
+HR,Payroll
+IT_Admin,Developer

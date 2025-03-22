@@ -1,0 +1,13 @@
+Role1,Role2,Reason
+Approver,Requester,Prevents self-approval of transactions
+Finance,Auditor,Prevents self-auditing
+IdentityAdmin,AccessManager,Prevents privilege escalation
+HR,Payroll,Prevents salary manipulation
+SecurityAdmin,Developer,Prevents unauthorized security bypass
+SecurityAnalyst,PolicyEditor,Prevents unauthorized security policy modifications
+UserManager,Approver,Prevents unauthorized user privilege changes
+Admin,Finance,Prevents financial fraud by IT admins
+IT_Admin,Auditor,Prevents IT admins from hiding security breaches
+Developer,ProductionAccess,Prevents unauthorized production modifications
+Payroll,Finance,Prevents financial conflicts of interest
+HR,IT_Admin,Prevents HR from modifying IT access privileges

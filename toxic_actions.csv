@@ -1,0 +1,13 @@
+Privilege,Category,Reason
+iam:PutUserPolicy,Privilege Escalation,Allows user to assign any policy to themselves
+iam:AttachUserPolicy,Privilege Escalation,Allows user to attach existing policies
+iam:CreateUser,Identity Management,Allows creation of new users
+iam:AttachRolePolicy,Privilege Escalation,Allows modifying role permissions
+iam:PutRolePolicy,Privilege Escalation,Allows direct modification of role policies
+iam:DeleteRole,Privilege Escalation,Allows deletion of IAM roles, bypassing security controls
+iam:DetachRolePolicy,Privilege Escalation,Allows detaching security policies, weakening role restrictions
+iam:SetDefaultPolicyVersion,Privilege Escalation,Can reset policy to a less restrictive version
+finance:ApprovePayment,Financial Fraud,Allows unauthorized approval of transactions
+finance:AuditTransactions,Audit Manipulation,Allows modifying audit logs, hiding fraudulent activities
+hr:ManageSalaries,Financial Fraud,Allows unauthorized salary adjustments
+code:ModifyProductionCode,System Integrity Risk,Allows unauthorized production modifications

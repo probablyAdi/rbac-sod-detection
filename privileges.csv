@@ -1,0 +1,14 @@
+Role,Privileges
+PolicyEditor,iam:PutUserPolicy;iam:AttachUserPolicy;iam:SetDefaultPolicyVersion
+RoleManager,iam:CreateRole;iam:AttachRolePolicy;iam:AddUserToGroup
+PermissionChanger,iam:PutRolePolicy;iam:DeleteRolePolicy
+Approver,finance:ApprovePayment
+Requester,finance:RequestPayment
+Finance,finance:ManageAccounts;finance:AuditTransactions
+Auditor,finance:ViewReports;finance:AuditTransactions
+Admin,iam:CreateUser;iam:DeleteUser;iam:UpdateUserPolicy;iam:DetachRolePolicy
+SecurityAnalyst,iam:ViewAuditLogs;iam:ListUsers;iam:ListRoles
+IT_Admin,iam:ResetUserPassword;iam:CreateRole;iam:DeleteRole
+HR,hr:ManageSalaries;hr:ApproveHiring;hr:TerminateEmployee
+Payroll,finance:ProcessSalaries
+Developer,code:DeployApplication;code:ModifyProductionCode
