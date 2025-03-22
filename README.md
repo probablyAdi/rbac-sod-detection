@@ -35,8 +35,9 @@ This project is designed to **automate the detection of Segregation of Duties (S
    ```
 2. **Run the Container:**
    ```sh
-   docker run --rm -v $(pwd):/app rbac-sod-detection
+   docker run --rm -v "%cd%":/app rbac-sod-detection
    ```
+   ( For Linux/macOS use $(pwd):/app instead of "%cd%":/app )
    - Ensure that all necessary input files are present in the working directory.
    - The output will be generated in `analysis_result.csv`.
 
